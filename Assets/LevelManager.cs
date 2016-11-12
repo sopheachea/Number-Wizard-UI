@@ -7,7 +7,10 @@ public class LevelManager : MonoBehaviour {
 
 		// Load scene
 		Application.LoadLevel (name);
+
+		print ("Hello world");
 	}
+		
 
 	public void QuitRequest(){
 		Debug.Log ("Quit request.");
